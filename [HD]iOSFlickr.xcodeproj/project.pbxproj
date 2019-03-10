@@ -7,21 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60C65102932572263364901 /* Pods__HD_iOSFlickr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79811780D67B08060C89E4E0 /* Pods__HD_iOSFlickr.framework */; };
 		FA2F53F0223130D80005B566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F53EF223130D80005B566 /* AppDelegate.swift */; };
-		FA2F53F2223130D80005B566 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F53F1223130D80005B566 /* ViewController.swift */; };
-		FA2F53F5223130D80005B566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F53F3223130D80005B566 /* Main.storyboard */; };
+		FA2F53F2223130D80005B566 /* ViewControllerInteresting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F53F1223130D80005B566 /* ViewControllerInteresting.swift */; };
+		FA2F53F5223130D80005B566 /* Interesting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F53F3223130D80005B566 /* Interesting.storyboard */; };
 		FA2F53F7223130DA0005B566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2F53F6223130DA0005B566 /* Assets.xcassets */; };
 		FA2F53FA223130DA0005B566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F53F8223130DA0005B566 /* LaunchScreen.storyboard */; };
+		FA2F5403223142AA0005B566 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F5402223142AA0005B566 /* API.swift */; };
+		FA2F540922314C300005B566 /* ResultInterestning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F540822314C300005B566 /* ResultInterestning.swift */; };
+		FA2F540C22315D1F0005B566 /* Typealiase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F540B22315D1F0005B566 /* Typealiase.swift */; };
+		FA2F540F22315E460005B566 /* ManagerLoadJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F540E22315E460005B566 /* ManagerLoadJSON.swift */; };
+		FA2F5414223160990005B566 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F5413223160990005B566 /* Photos.swift */; };
+		FA2F5416223160C30005B566 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F5415223160C30005B566 /* Photo.swift */; };
+		FA657BF0223373DC00024414 /* URLParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA657BEF223373DC00024414 /* URLParameters.swift */; };
+		FA657BF32233792B00024414 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA657BF22233792B00024414 /* Alerts.swift */; };
+		FA657BF52233794A00024414 /* ManagerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA657BF42233794A00024414 /* ManagerNetwork.swift */; };
+		FA657BF822337A5E00024414 /* StringProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA657BF722337A5E00024414 /* StringProject.swift */; };
+		FA657BFA22337B5000024414 /* FunctionInterestning.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA657BF922337B5000024414 /* FunctionInterestning.swift */; };
+		FA657BFD2233AF6100024414 /* FunctionDetailCamerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA657BFC2233AF6100024414 /* FunctionDetailCamerViewController.swift */; };
+		FA76631722316E12006CC313 /* Extension + UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76631622316E12006CC313 /* Extension + UIResponder.swift */; };
+		FA76631922316E33006CC313 /* InterestingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76631822316E33006CC313 /* InterestingCollectionViewCell.swift */; };
+		FA76631B22316EAA006CC313 /* ColectionViewControllerInteresting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76631A22316EAA006CC313 /* ColectionViewControllerInteresting.swift */; };
+		FA76631D22317372006CC313 /* ManagerLoadPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76631C22317372006CC313 /* ManagerLoadPhoto.swift */; };
+		FA76631F22317B83006CC313 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76631E22317B83006CC313 /* Extension + UIView.swift */; };
+		FA766321223180CA006CC313 /* Extension + UIActidityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA766320223180CA006CC313 /* Extension + UIActidityIndicatorView.swift */; };
+		FA76632B2231926B006CC313 /* Collage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76632A2231926B006CC313 /* Collage.storyboard */; };
+		FA76632D22319293006CC313 /* CollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76632C22319293006CC313 /* CollageViewController.swift */; };
+		FA76632F223192D5006CC313 /* CollageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76632E223192D5006CC313 /* CollageModel.swift */; };
+		FA76633522319529006CC313 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76633422319529006CC313 /* Menu.storyboard */; };
+		FA76633C22319648006CC313 /* BrandsCamers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA76633B22319648006CC313 /* BrandsCamers.storyboard */; };
+		FA76633E22319687006CC313 /* BrandsCamersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76633D22319687006CC313 /* BrandsCamersTableViewCell.swift */; };
+		FA7663422231A122006CC313 /* ViewControllerBrandsCamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7663412231A122006CC313 /* ViewControllerBrandsCamers.swift */; };
+		FA7663442231A155006CC313 /* TableViewControllerBrandsCamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7663432231A155006CC313 /* TableViewControllerBrandsCamers.swift */; };
+		FA7663462231B285006CC313 /* Brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7663452231B285006CC313 /* Brands.swift */; };
+		FA7663482231B3E5006CC313 /* ResultCamersBrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7663472231B3E5006CC313 /* ResultCamersBrands.swift */; };
+		FA76634B2231B68A006CC313 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76634A2231B68A006CC313 /* Brand.swift */; };
+		FA7B660C22328E1E00B15954 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B660B22328E1E00B15954 /* Name.swift */; };
+		FA7B660F22328E5A00B15954 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B660E22328E5A00B15954 /* Camera.swift */; };
+		FA7B661222328EB600B15954 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B661122328EB600B15954 /* Images.swift */; };
+		FA7B661522328F1C00B15954 /* Small.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B661422328F1C00B15954 /* Small.swift */; };
+		FA7B661722328F2F00B15954 /* Large.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B661622328F2F00B15954 /* Large.swift */; };
+		FA7B661D22329CDD00B15954 /* DetailCamerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B661C22329CDD00B15954 /* DetailCamerTableViewCell.swift */; };
+		FA7B661F22329E0700B15954 /* TableViewControllerDetailCamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B661E22329E0700B15954 /* TableViewControllerDetailCamers.swift */; };
+		FA7B66212232E60000B15954 /* ActionCollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B66202232E60000B15954 /* ActionCollageViewController.swift */; };
+		FAB10F4422320E370067609A /* IDProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB10F4322320E370067609A /* IDProject.swift */; };
+		FAB10F47223268120067609A /* SearchControlerBrandsCamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB10F46223268120067609A /* SearchControlerBrandsCamers.swift */; };
+		FAB10F4C223273E00067609A /* DetailCamers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB10F4B223273E00067609A /* DetailCamers.storyboard */; };
+		FAB10F4E2232755D0067609A /* ViewControllerDetailCamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB10F4D2232755D0067609A /* ViewControllerDetailCamer.swift */; };
+		FAB10F51223277310067609A /* ResultsDetailBrandCamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB10F50223277310067609A /* ResultsDetailBrandCamer.swift */; };
+		FAB880A02234C61B00F0078D /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8809F2234C61B00F0078D /* Session.swift */; };
+		FAB880A32234CD3C00F0078D /* SessionTransferData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB880A22234CD3C00F0078D /* SessionTransferData.swift */; };
+		FAB880A52234D91100F0078D /* FunctionBrandsCamers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB880A42234D91100F0078D /* FunctionBrandsCamers.swift */; };
+		FADF7F352232F618007C228A /* Extension + UIPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF7F342232F618007C228A /* Extension + UIPinchGestureRecognizer.swift */; };
+		FADF7F372232F63D007C228A /* Extension + UIRotationGestureRecognizer..swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF7F362232F63D007C228A /* Extension + UIRotationGestureRecognizer..swift */; };
+		FADF7F392232F7A1007C228A /* FunctionCollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF7F382232F7A1007C228A /* FunctionCollageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61C21C1506E0A0EA48D49333 /* Pods-[HD]iOSFlickr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-[HD]iOSFlickr.release.xcconfig"; path = "Target Support Files/Pods-[HD]iOSFlickr/Pods-[HD]iOSFlickr.release.xcconfig"; sourceTree = "<group>"; };
+		79811780D67B08060C89E4E0 /* Pods__HD_iOSFlickr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods__HD_iOSFlickr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC94B3563D3D37F0D9D8FD62 /* Pods-[HD]iOSFlickr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-[HD]iOSFlickr.debug.xcconfig"; path = "Target Support Files/Pods-[HD]iOSFlickr/Pods-[HD]iOSFlickr.debug.xcconfig"; sourceTree = "<group>"; };
 		FA2F53EC223130D80005B566 /* [HD]iOSFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "[HD]iOSFlickr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2F53EF223130D80005B566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA2F53F1223130D80005B566 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA2F53F4223130D80005B566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2F53F1223130D80005B566 /* ViewControllerInteresting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInteresting.swift; sourceTree = "<group>"; };
+		FA2F53F4223130D80005B566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interesting.storyboard; sourceTree = "<group>"; };
 		FA2F53F6223130DA0005B566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2F53F9223130DA0005B566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2F53FB223130DA0005B566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F5402223142AA0005B566 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FA2F540822314C300005B566 /* ResultInterestning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInterestning.swift; sourceTree = "<group>"; };
+		FA2F540B22315D1F0005B566 /* Typealiase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiase.swift; sourceTree = "<group>"; };
+		FA2F540E22315E460005B566 /* ManagerLoadJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerLoadJSON.swift; sourceTree = "<group>"; };
+		FA2F5413223160990005B566 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		FA2F5415223160C30005B566 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		FA657BEF223373DC00024414 /* URLParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameters.swift; sourceTree = "<group>"; };
+		FA657BF22233792B00024414 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		FA657BF42233794A00024414 /* ManagerNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerNetwork.swift; sourceTree = "<group>"; };
+		FA657BF722337A5E00024414 /* StringProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringProject.swift; sourceTree = "<group>"; };
+		FA657BF922337B5000024414 /* FunctionInterestning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionInterestning.swift; sourceTree = "<group>"; };
+		FA657BFC2233AF6100024414 /* FunctionDetailCamerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDetailCamerViewController.swift; sourceTree = "<group>"; };
+		FA76631622316E12006CC313 /* Extension + UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIResponder.swift"; sourceTree = "<group>"; };
+		FA76631822316E33006CC313 /* InterestingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA76631A22316EAA006CC313 /* ColectionViewControllerInteresting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColectionViewControllerInteresting.swift; sourceTree = "<group>"; };
+		FA76631C22317372006CC313 /* ManagerLoadPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerLoadPhoto.swift; sourceTree = "<group>"; };
+		FA76631E22317B83006CC313 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		FA766320223180CA006CC313 /* Extension + UIActidityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIActidityIndicatorView.swift"; sourceTree = "<group>"; };
+		FA76632A2231926B006CC313 /* Collage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collage.storyboard; sourceTree = "<group>"; };
+		FA76632C22319293006CC313 /* CollageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageViewController.swift; sourceTree = "<group>"; };
+		FA76632E223192D5006CC313 /* CollageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageModel.swift; sourceTree = "<group>"; };
+		FA76633422319529006CC313 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		FA76633B22319648006CC313 /* BrandsCamers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BrandsCamers.storyboard; sourceTree = "<group>"; };
+		FA76633D22319687006CC313 /* BrandsCamersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsCamersTableViewCell.swift; sourceTree = "<group>"; };
+		FA7663412231A122006CC313 /* ViewControllerBrandsCamers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBrandsCamers.swift; sourceTree = "<group>"; };
+		FA7663432231A155006CC313 /* TableViewControllerBrandsCamers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerBrandsCamers.swift; sourceTree = "<group>"; };
+		FA7663452231B285006CC313 /* Brands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brands.swift; sourceTree = "<group>"; };
+		FA7663472231B3E5006CC313 /* ResultCamersBrands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCamersBrands.swift; sourceTree = "<group>"; };
+		FA76634A2231B68A006CC313 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		FA7B660B22328E1E00B15954 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		FA7B660E22328E5A00B15954 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		FA7B661122328EB600B15954 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		FA7B661422328F1C00B15954 /* Small.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Small.swift; sourceTree = "<group>"; };
+		FA7B661622328F2F00B15954 /* Large.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Large.swift; sourceTree = "<group>"; };
+		FA7B661C22329CDD00B15954 /* DetailCamerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCamerTableViewCell.swift; sourceTree = "<group>"; };
+		FA7B661E22329E0700B15954 /* TableViewControllerDetailCamers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerDetailCamers.swift; sourceTree = "<group>"; };
+		FA7B66202232E60000B15954 /* ActionCollageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCollageViewController.swift; sourceTree = "<group>"; };
+		FAB10F4322320E370067609A /* IDProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IDProject.swift; path = "[HD]iOSFlickr/MVC/BrandsCamers/Model/JSONsFormats/IDProject.swift"; sourceTree = SOURCE_ROOT; };
+		FAB10F46223268120067609A /* SearchControlerBrandsCamers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchControlerBrandsCamers.swift; sourceTree = "<group>"; };
+		FAB10F4B223273E00067609A /* DetailCamers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailCamers.storyboard; sourceTree = "<group>"; };
+		FAB10F4D2232755D0067609A /* ViewControllerDetailCamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetailCamer.swift; sourceTree = "<group>"; };
+		FAB10F50223277310067609A /* ResultsDetailBrandCamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDetailBrandCamer.swift; sourceTree = "<group>"; };
+		FAB8809F2234C61B00F0078D /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FAB880A22234CD3C00F0078D /* SessionTransferData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTransferData.swift; sourceTree = "<group>"; };
+		FAB880A42234D91100F0078D /* FunctionBrandsCamers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionBrandsCamers.swift; sourceTree = "<group>"; };
+		FADF7F342232F618007C228A /* Extension + UIPinchGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Extension + UIPinchGestureRecognizer.swift"; path = "/Users/macbook/Library/Mobile Documents/com~apple~CloudDocs/-=SWIFT=-/[HD]iOSFlickr/[HD]iOSFlickr/Extensions/Extension + UIPinchGestureRecognizer.swift"; sourceTree = "<absolute>"; };
+		FADF7F362232F63D007C228A /* Extension + UIRotationGestureRecognizer..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIRotationGestureRecognizer..swift"; sourceTree = "<group>"; };
+		FADF7F382232F7A1007C228A /* FunctionCollageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionCollageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +129,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60C65102932572263364901 /* Pods__HD_iOSFlickr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47655949C5A1809B224FAF0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79811780D67B08060C89E4E0 /* Pods__HD_iOSFlickr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7072E53F624AE687AE20DAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC94B3563D3D37F0D9D8FD62 /* Pods-[HD]iOSFlickr.debug.xcconfig */,
+				61C21C1506E0A0EA48D49333 /* Pods-[HD]iOSFlickr.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FA2F53E3223130D80005B566 = {
 			isa = PBXGroup;
 			children = (
 				FA2F53EE223130D80005B566 /* [HD]iOSFlickr */,
 				FA2F53ED223130D80005B566 /* Products */,
+				7072E53F624AE687AE20DAA7 /* Pods */,
+				47655949C5A1809B224FAF0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +174,368 @@
 		FA2F53EE223130D80005B566 /* [HD]iOSFlickr */ = {
 			isa = PBXGroup;
 			children = (
+				FA2F541122315F320005B566 /* AppDelegate */,
+				FA657BF622337A4D00024414 /* StringProject */,
+				FA657BF12233791200024414 /* Alerts Service */,
+				FA76631522316DF4006CC313 /* Extensions */,
+				FAB880A12234C6E900F0078D /* Classes */,
+				FA2F541022315F1C0005B566 /* Protocols */,
+				FA2F540A22315D080005B566 /* Typealiase */,
+				FAB10F4222320E1A0067609A /* IDProject */,
+				FA2F540D22315DFF0005B566 /* Managers */,
+				FA2F5401223142960005B566 /*  API */,
+				FA76633A223195FC006CC313 /* MVC */,
+				FA2F541222315F4A0005B566 /* Resurses */,
+			);
+			path = "[HD]iOSFlickr";
+			sourceTree = "<group>";
+		};
+		FA2F5401223142960005B566 /*  API */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F5402223142AA0005B566 /* API.swift */,
+			);
+			path = " API";
+			sourceTree = "<group>";
+		};
+		FA2F540722314B820005B566 /* JSONsFormats */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F540822314C300005B566 /* ResultInterestning.swift */,
+				FA2F5413223160990005B566 /* Photos.swift */,
+				FA2F5415223160C30005B566 /* Photo.swift */,
+			);
+			path = JSONsFormats;
+			sourceTree = "<group>";
+		};
+		FA2F540A22315D080005B566 /* Typealiase */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F540B22315D1F0005B566 /* Typealiase.swift */,
+			);
+			path = Typealiase;
+			sourceTree = "<group>";
+		};
+		FA2F540D22315DFF0005B566 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F540E22315E460005B566 /* ManagerLoadJSON.swift */,
+				FA76631C22317372006CC313 /* ManagerLoadPhoto.swift */,
+				FA657BF42233794A00024414 /* ManagerNetwork.swift */,
+			);
+			name = Managers;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FA2F541022315F1C0005B566 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8809F2234C61B00F0078D /* Session.swift */,
+				FAB880A22234CD3C00F0078D /* SessionTransferData.swift */,
+				FA657BEE223373BB00024414 /* Class URLParameters */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		FA2F541122315F320005B566 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				FA2F53EF223130D80005B566 /* AppDelegate.swift */,
-				FA2F53F1223130D80005B566 /* ViewController.swift */,
-				FA2F53F3223130D80005B566 /* Main.storyboard */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FA2F541222315F4A0005B566 /* Resurses */ = {
+			isa = PBXGroup;
+			children = (
 				FA2F53F6223130DA0005B566 /* Assets.xcassets */,
 				FA2F53F8223130DA0005B566 /* LaunchScreen.storyboard */,
 				FA2F53FB223130DA0005B566 /* Info.plist */,
 			);
-			path = "[HD]iOSFlickr";
+			path = Resurses;
+			sourceTree = "<group>";
+		};
+		FA657BEE223373BB00024414 /* Class URLParameters */ = {
+			isa = PBXGroup;
+			children = (
+				FA657BEF223373DC00024414 /* URLParameters.swift */,
+			);
+			path = "Class URLParameters";
+			sourceTree = "<group>";
+		};
+		FA657BF12233791200024414 /* Alerts Service */ = {
+			isa = PBXGroup;
+			children = (
+				FA657BF22233792B00024414 /* Alerts.swift */,
+			);
+			path = "Alerts Service";
+			sourceTree = "<group>";
+		};
+		FA657BF622337A4D00024414 /* StringProject */ = {
+			isa = PBXGroup;
+			children = (
+				FA657BF722337A5E00024414 /* StringProject.swift */,
+			);
+			path = StringProject;
+			sourceTree = "<group>";
+		};
+		FA657BFB2233AD5A00024414 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				FA7663452231B285006CC313 /* Brands.swift */,
+				FA76634A2231B68A006CC313 /* Brand.swift */,
+			);
+			path = Brands;
+			sourceTree = "<group>";
+		};
+		FA76631122316D85006CC313 /* Interesting */ = {
+			isa = PBXGroup;
+			children = (
+				FA76631322316D9C006CC313 /* Model */,
+				FA76631222316D93006CC313 /* View */,
+				FA76631422316DA4006CC313 /* Controller */,
+			);
+			path = Interesting;
+			sourceTree = "<group>";
+		};
+		FA76631222316D93006CC313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F53F3223130D80005B566 /* Interesting.storyboard */,
+				FA76631822316E33006CC313 /* InterestingCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA76631322316D9C006CC313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F540722314B820005B566 /* JSONsFormats */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA76631422316DA4006CC313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F53F1223130D80005B566 /* ViewControllerInteresting.swift */,
+				FA76631A22316EAA006CC313 /* ColectionViewControllerInteresting.swift */,
+				FA657BF922337B5000024414 /* FunctionInterestning.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA76631522316DF4006CC313 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA76631622316E12006CC313 /* Extension + UIResponder.swift */,
+				FA76631E22317B83006CC313 /* Extension + UIView.swift */,
+				FA766320223180CA006CC313 /* Extension + UIActidityIndicatorView.swift */,
+				FADF7F342232F618007C228A /* Extension + UIPinchGestureRecognizer.swift */,
+				FADF7F362232F63D007C228A /* Extension + UIRotationGestureRecognizer..swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA76632622318990006CC313 /* Collage */ = {
+			isa = PBXGroup;
+			children = (
+				FA766327223189A7006CC313 /* Model */,
+				FA766328223189AF006CC313 /* View */,
+				FA766329223189C4006CC313 /* Controller */,
+			);
+			path = Collage;
+			sourceTree = "<group>";
+		};
+		FA766327223189A7006CC313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA76632E223192D5006CC313 /* CollageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA766328223189AF006CC313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA76632A2231926B006CC313 /* Collage.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA766329223189C4006CC313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA76632C22319293006CC313 /* CollageViewController.swift */,
+				FA7B66202232E60000B15954 /* ActionCollageViewController.swift */,
+				FADF7F382232F7A1007C228A /* FunctionCollageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA766330223194F3006CC313 /*  Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FA76633222319511006CC313 /* View */,
+			);
+			name = " Menu";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FA76633222319511006CC313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA76633422319529006CC313 /* Menu.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FA766336223195B1006CC313 /* BrandsCamers */ = {
+			isa = PBXGroup;
+			children = (
+				FA766339223195D3006CC313 /* Model */,
+				FA766338223195CD006CC313 /* View */,
+				FA766337223195C2006CC313 /* Controller */,
+			);
+			path = BrandsCamers;
+			sourceTree = "<group>";
+		};
+		FA766337223195C2006CC313 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA7663412231A122006CC313 /* ViewControllerBrandsCamers.swift */,
+				FA7663432231A155006CC313 /* TableViewControllerBrandsCamers.swift */,
+				FAB10F46223268120067609A /* SearchControlerBrandsCamers.swift */,
+				FAB880A42234D91100F0078D /* FunctionBrandsCamers.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA766338223195CD006CC313 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA76633B22319648006CC313 /* BrandsCamers.storyboard */,
+				FA76633D22319687006CC313 /* BrandsCamersTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA766339223195D3006CC313 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA7663492231B3EF006CC313 /* JSONsFormats */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA76633A223195FC006CC313 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				FA766330223194F3006CC313 /*  Menu */,
+				FA766336223195B1006CC313 /* BrandsCamers */,
+				FAB10F452232677E0067609A /* DetailCamers */,
+				FA76631122316D85006CC313 /* Interesting */,
+				FA76632622318990006CC313 /* Collage */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		FA7663492231B3EF006CC313 /* JSONsFormats */ = {
+			isa = PBXGroup;
+			children = (
+				FA7663472231B3E5006CC313 /* ResultCamersBrands.swift */,
+				FA657BFB2233AD5A00024414 /* Brands */,
+			);
+			path = JSONsFormats;
+			sourceTree = "<group>";
+		};
+		FA7B660D22328E2F00B15954 /* Cameras */ = {
+			isa = PBXGroup;
+			children = (
+				FA7B660E22328E5A00B15954 /* Camera.swift */,
+				FA7B661022328E7400B15954 /* Camera */,
+			);
+			path = Cameras;
+			sourceTree = "<group>";
+		};
+		FA7B661022328E7400B15954 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				FA7B660B22328E1E00B15954 /* Name.swift */,
+				FA7B661122328EB600B15954 /* Images.swift */,
+				FA7B661322328ECB00B15954 /* Images */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		FA7B661322328ECB00B15954 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FA7B661422328F1C00B15954 /* Small.swift */,
+				FA7B661622328F2F00B15954 /* Large.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FAB10F4222320E1A0067609A /* IDProject */ = {
+			isa = PBXGroup;
+			children = (
+				FAB10F4322320E370067609A /* IDProject.swift */,
+			);
+			path = IDProject;
+			sourceTree = "<group>";
+		};
+		FAB10F452232677E0067609A /* DetailCamers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB10F48223273420067609A /* Model */,
+				FAB10F492232734C0067609A /* View */,
+				FAB10F4A223273550067609A /* Controller */,
+			);
+			path = DetailCamers;
+			sourceTree = "<group>";
+		};
+		FAB10F48223273420067609A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB10F4F2232769F0067609A /* JSONFormats */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAB10F492232734C0067609A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB10F4B223273E00067609A /* DetailCamers.storyboard */,
+				FA7B661C22329CDD00B15954 /* DetailCamerTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAB10F4A223273550067609A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAB10F4D2232755D0067609A /* ViewControllerDetailCamer.swift */,
+				FA7B661E22329E0700B15954 /* TableViewControllerDetailCamers.swift */,
+				FA657BFC2233AF6100024414 /* FunctionDetailCamerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAB10F4F2232769F0067609A /* JSONFormats */ = {
+			isa = PBXGroup;
+			children = (
+				FAB10F50223277310067609A /* ResultsDetailBrandCamer.swift */,
+				FA7B660D22328E2F00B15954 /* Cameras */,
+			);
+			path = JSONFormats;
+			sourceTree = "<group>";
+		};
+		FAB880A12234C6E900F0078D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +545,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA2F53FE223130DA0005B566 /* Build configuration list for PBXNativeTarget "[HD]iOSFlickr" */;
 			buildPhases = (
+				14B3D7FC4229D8D460DED04C /* [CP] Check Pods Manifest.lock */,
 				FA2F53E8223130D80005B566 /* Sources */,
 				FA2F53E9223130D80005B566 /* Frameworks */,
 				FA2F53EA223130D80005B566 /* Resources */,
+				42DBD4F0C80AAAF28AA0EE1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,33 +598,128 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA76633522319529006CC313 /* Menu.storyboard in Resources */,
+				FAB10F4C223273E00067609A /* DetailCamers.storyboard in Resources */,
+				FA76633C22319648006CC313 /* BrandsCamers.storyboard in Resources */,
+				FA76632B2231926B006CC313 /* Collage.storyboard in Resources */,
 				FA2F53FA223130DA0005B566 /* LaunchScreen.storyboard in Resources */,
 				FA2F53F7223130DA0005B566 /* Assets.xcassets in Resources */,
-				FA2F53F5223130D80005B566 /* Main.storyboard in Resources */,
+				FA2F53F5223130D80005B566 /* Interesting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14B3D7FC4229D8D460DED04C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-[HD]iOSFlickr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42DBD4F0C80AAAF28AA0EE1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-[HD]iOSFlickr/Pods-[HD]iOSFlickr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-[HD]iOSFlickr/Pods-[HD]iOSFlickr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA2F53E8223130D80005B566 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2F53F2223130D80005B566 /* ViewController.swift in Sources */,
+				FAB10F51223277310067609A /* ResultsDetailBrandCamer.swift in Sources */,
+				FA76631922316E33006CC313 /* InterestingCollectionViewCell.swift in Sources */,
+				FA2F53F2223130D80005B566 /* ViewControllerInteresting.swift in Sources */,
+				FA657BF0223373DC00024414 /* URLParameters.swift in Sources */,
+				FA7B661522328F1C00B15954 /* Small.swift in Sources */,
+				FA76631B22316EAA006CC313 /* ColectionViewControllerInteresting.swift in Sources */,
+				FADF7F372232F63D007C228A /* Extension + UIRotationGestureRecognizer..swift in Sources */,
+				FA76631D22317372006CC313 /* ManagerLoadPhoto.swift in Sources */,
+				FAB10F4422320E370067609A /* IDProject.swift in Sources */,
+				FA2F540F22315E460005B566 /* ManagerLoadJSON.swift in Sources */,
+				FA657BFD2233AF6100024414 /* FunctionDetailCamerViewController.swift in Sources */,
+				FADF7F392232F7A1007C228A /* FunctionCollageViewController.swift in Sources */,
+				FA2F5403223142AA0005B566 /* API.swift in Sources */,
+				FA7663462231B285006CC313 /* Brands.swift in Sources */,
+				FA76631F22317B83006CC313 /* Extension + UIView.swift in Sources */,
+				FAB880A52234D91100F0078D /* FunctionBrandsCamers.swift in Sources */,
+				FA2F5416223160C30005B566 /* Photo.swift in Sources */,
+				FA7663482231B3E5006CC313 /* ResultCamersBrands.swift in Sources */,
+				FA2F540C22315D1F0005B566 /* Typealiase.swift in Sources */,
+				FA7B661722328F2F00B15954 /* Large.swift in Sources */,
+				FAB10F47223268120067609A /* SearchControlerBrandsCamers.swift in Sources */,
+				FA76632F223192D5006CC313 /* CollageModel.swift in Sources */,
+				FA766321223180CA006CC313 /* Extension + UIActidityIndicatorView.swift in Sources */,
+				FAB10F4E2232755D0067609A /* ViewControllerDetailCamer.swift in Sources */,
+				FA2F5414223160990005B566 /* Photos.swift in Sources */,
+				FA76632D22319293006CC313 /* CollageViewController.swift in Sources */,
+				FA7B661D22329CDD00B15954 /* DetailCamerTableViewCell.swift in Sources */,
+				FA2F540922314C300005B566 /* ResultInterestning.swift in Sources */,
+				FAB880A02234C61B00F0078D /* Session.swift in Sources */,
 				FA2F53F0223130D80005B566 /* AppDelegate.swift in Sources */,
+				FA7B660F22328E5A00B15954 /* Camera.swift in Sources */,
+				FA657BFA22337B5000024414 /* FunctionInterestning.swift in Sources */,
+				FA7663422231A122006CC313 /* ViewControllerBrandsCamers.swift in Sources */,
+				FADF7F352232F618007C228A /* Extension + UIPinchGestureRecognizer.swift in Sources */,
+				FA7B660C22328E1E00B15954 /* Name.swift in Sources */,
+				FA76634B2231B68A006CC313 /* Brand.swift in Sources */,
+				FA7B661F22329E0700B15954 /* TableViewControllerDetailCamers.swift in Sources */,
+				FAB880A32234CD3C00F0078D /* SessionTransferData.swift in Sources */,
+				FA76631722316E12006CC313 /* Extension + UIResponder.swift in Sources */,
+				FA657BF822337A5E00024414 /* StringProject.swift in Sources */,
+				FA76633E22319687006CC313 /* BrandsCamersTableViewCell.swift in Sources */,
+				FA7B661222328EB600B15954 /* Images.swift in Sources */,
+				FA7663442231A155006CC313 /* TableViewControllerBrandsCamers.swift in Sources */,
+				FA657BF32233792B00024414 /* Alerts.swift in Sources */,
+				FA657BF52233794A00024414 /* ManagerNetwork.swift in Sources */,
+				FA7B66212232E60000B15954 /* ActionCollageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA2F53F3223130D80005B566 /* Main.storyboard */ = {
+		FA2F53F3223130D80005B566 /* Interesting.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FA2F53F4223130D80005B566 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Interesting.storyboard;
 			sourceTree = "<group>";
 		};
 		FA2F53F8223130DA0005B566 /* LaunchScreen.storyboard */ = {
@@ -280,11 +851,12 @@
 		};
 		FA2F53FF223130DA0005B566 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC94B3563D3D37F0D9D8FD62 /* Pods-[HD]iOSFlickr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4WXPEY3A4;
-				INFOPLIST_FILE = "[HD]iOSFlickr/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/[HD]iOSFlickr/Resurses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +870,12 @@
 		};
 		FA2F5400223130DA0005B566 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C21C1506E0A0EA48D49333 /* Pods-[HD]iOSFlickr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4WXPEY3A4;
-				INFOPLIST_FILE = "[HD]iOSFlickr/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/[HD]iOSFlickr/Resurses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jip-XV-W8v">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Brands Camers View Controller-->
+        <scene sceneID="jda-nS-2UA">
+            <objects>
+                <viewController id="Tdp-dI-hD9" customClass="BrandsCamersViewController" customModule="_HD_iOSFlickr" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="62e-y9-jgS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ItE-6H-TSv">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.25098039220000001" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BrandsCamersTableViewCell" id="Jvf-LU-DXX" customClass="BrandsCamersTableViewCell" customModule="_HD_iOSFlickr" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jvf-LU-DXX" id="Ekj-fa-zGn">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Tdp-dI-hD9" id="Oqj-en-5v7"/>
+                                    <outlet property="delegate" destination="Tdp-dI-hD9" id="7F6-JC-xka"/>
+                                </connections>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="CYv-Ur-ttg">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ItE-6H-TSv" firstAttribute="top" secondItem="uf9-ss-2iR" secondAttribute="top" id="ETp-bi-pC2"/>
+                            <constraint firstItem="CYv-Ur-ttg" firstAttribute="leading" secondItem="uf9-ss-2iR" secondAttribute="trailing" constant="-206" id="Sjm-Ek-sCh"/>
+                            <constraint firstAttribute="trailing" secondItem="ItE-6H-TSv" secondAttribute="trailing" id="Tbo-HS-zT5"/>
+                            <constraint firstItem="CYv-Ur-ttg" firstAttribute="top" secondItem="uf9-ss-2iR" secondAttribute="bottom" constant="-303" id="cW5-kp-4Hp"/>
+                            <constraint firstItem="uf9-ss-2iR" firstAttribute="bottom" secondItem="ItE-6H-TSv" secondAttribute="bottom" id="pGM-Qt-017"/>
+                            <constraint firstItem="ItE-6H-TSv" firstAttribute="leading" secondItem="62e-y9-jgS" secondAttribute="leading" id="zDS-tu-MMi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uf9-ss-2iR"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yjs-FO-Pxi"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="CYv-Ur-ttg" id="B0L-jT-Hqj"/>
+                        <outlet property="tableView" destination="ItE-6H-TSv" id="fbt-Jj-IdX"/>
+                        <segue destination="3F2-7p-aqd" kind="show" identifier="SgBrandsCamers_DetailBrandCamer" id="0Da-wQ-JLq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WpS-F9-neY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="159"/>
+        </scene>
+        <!--DetailCamers-->
+        <scene sceneID="wz9-s7-bm4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DetailCamers" id="3F2-7p-aqd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWg-2x-ax3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1774" y="158"/>
+        </scene>
+        <!--BrandsCamers-->
+        <scene sceneID="fQC-pE-vga">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jip-XV-W8v" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="BrandsCamers" id="S3p-PB-eRY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jWM-Xz-Hfk">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Tdp-dI-hD9" kind="relationship" relationship="rootViewController" id="0bf-cf-juO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NUr-FR-Yer" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="204" y="158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>
